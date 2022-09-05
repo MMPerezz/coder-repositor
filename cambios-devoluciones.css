@@ -6,13 +6,13 @@ header {
  #logo_icono{
      width: 150px;
      height: 150px;
-
+     display: flex;
+     justify-content: center;
  }
- 
 
+ 
 .container-fluid{
  list-style-type: none;
-
  padding: 15px   15px;
  background-color: beige;
  border-radius: 20px;
@@ -26,19 +26,7 @@ header {
      justify-content: flex-end;
      position: relative
  }
- .titulos_y_textos{
-    border: 0cm;
-     font-family: sans-serif;
-     display: flex;
-     flex-direction: column;
-     position: relative;
-     justify-content: center;
- }
- 
- .titulos_y_textos h1{
-     display: flex;
-     justify-content: center;
- }
+
  
  .footer{
      font-family: sans-serif;
@@ -47,11 +35,9 @@ header {
      justify-content: space-between
 
 
-
  }
  body{
     background: radial-gradient(circle, rgba(247,240,191,1) 0%, rgba(57,199,188,0.5081206496519721) 100%);
     margin: 0px;
 
  }
-

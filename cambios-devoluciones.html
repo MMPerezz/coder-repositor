@@ -4,19 +4,15 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shoes AURORA- inicio</title>
-    <link rel="stylesheet" href="index.css">
+    <title>Shoes AURORA- Cambios-devoluciones</title>
     <link rel="stylesheet" href="booststrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="booststrap/js/bootstrap.min.js">
-    
+    <link rel="stylesheet" href="cambios-devoluciones.css">
   </head>
-  <link rel="con" href="logo/AURORA SHOES LOGO.jpg">
   <body>
-
     <header>
 
       <div>
-
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
           <div class="container-fluid">
             <img id="logo_icono" src="logo/AURORA SHOES ico.ico" alt="">
@@ -25,10 +21,10 @@
             </button>
             <div class="collapse navbar-collapse show" id="navbarNavAltMarkup">
               <div class="navbar-nav">
-                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+                <a class="nav-link"  href="index.html">Inicio</a>
                 <a class="nav-link" href="Quienes somos.html">Quienes somos</a>
                 <a class="nav-link" href="Productos.html">Productos</a>
-                <a class="nav-link" href="cambios-devoluciones.html" >Cambios-Devoluciones</a>
+                <a class="nav-link active" aria-current="page" href="cambios-devoluciones.html" >Cambios-Devoluciones</a>
                 <a class="nav-link" href="Consultas.html">consultas</a>
               </div>
             </div>
@@ -36,32 +32,33 @@
         </nav>
       </div>
     </header>
-
     <hr />
-
-    <div class="titulos_y_textos">
-
-        <h2>
-          Bienvenidos a Shoes Aurora... Venta online de calzados
-        </h2>    
-        <p>
-          Replicas de tus zapatillas favoritas, a la mejor calidad.
-          Zapatos y botas directo de fabrica con el mejor diseño...
-        </p>
-        <img src="imagenes/calzado-1024x483-removebg-preview .png" alt="" />
-    </div>
-          
-   
-    <hr />
-    <div>
-      <footer class="footer">
-        <h4>Buscanos en las redes...</h4>
-        <div class="iconos_de_redes">
-          <img src="imagenes/iconos redes sociales/facebook_109862.png" alt="">
-          <img src="imagenes/iconos redes sociales/instagam_109863.png" alt="">
-          <img src="imagenes/iconos redes sociales/whatsapp_109861.png" alt="">
-        </div>  
-      </footer>
-    </div>
+    <h1>Cambio - Devolución</h1>
+    <form action="">
+      <label for="numero-de-compra">Numero de compra</label>
+      <input type="text" name="numero-de-compra">
+      <br>
+      <label for="cambio-devolucion">Elegir opcion</label>
+      <select name="cambio-devolucion" id="">
+        <option value="cambio">Cambio</option>
+        <option value="devolucion">Devolucion</option>
+      </select>
+      <br>
+      <div>Motivo:</div>
+      <textarea name="motivo-de-devolucion" id="" cols="30" rows="10"></textarea>
+      <br>
+      <input type="button" value="Enviar">
+    </form>
   </body>
+  <hr>
+  <div>
+    <footer class="footer">
+      <h4>Buscanos en las redes...</h4>
+      <div class="iconos_de_redes">
+        <img src="imagenes/iconos redes sociales/facebook_109862.png" alt="">
+        <img src="imagenes/iconos redes sociales/instagam_109863.png" alt="">
+        <img src="imagenes/iconos redes sociales/whatsapp_109861.png" alt="">
+      </div>  
+    </footer>
+  </div>
 </html>
