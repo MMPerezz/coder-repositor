@@ -13,7 +13,6 @@ header {
  
 .container-fluid{
  list-style-type: none;
-
  padding: 15px   15px;
  background-color: beige;
  border-radius: 20px;
@@ -29,16 +28,32 @@ header {
  }
 
  
- .footer{
-     font-family: sans-serif;
-     display: flex;
-     flex-direction: row;
-     justify-content: space-between
-
-
- }
  body{
     background: radial-gradient(circle, rgba(247,240,191,1) 0%, rgba(57,199,188,0.5081206496519721) 100%);
     margin: 0px;
 
+ }
+
+ footer {
+    background: #EFF0D1;
+    font-family: sans-serif;
+    width: 100%
+    
+  }
+
+  #iconos {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: row;
+  }
+
+.card-img-top {
+    width: 110px;
+    height: 110px;
+    justify-items: flex-start;
  }
