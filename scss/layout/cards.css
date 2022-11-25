@@ -1,0 +1,9 @@
+.container {
+  margin-top: 2em;
+}
+
+.card-img-top {
+  width: 110px;
+  height: 110px;
+  justify-items: flex-start;
+}/*# sourceMappingURL=cards.css.map */

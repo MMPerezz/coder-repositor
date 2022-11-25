@@ -1,0 +1,13 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  position: relative;
+}
+
+#logo_icono {
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+}/*# sourceMappingURL=header.css.map */
